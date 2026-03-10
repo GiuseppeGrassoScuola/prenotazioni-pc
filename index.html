@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prenotazione PC Laboratorio</title>
+  <meta name="description" content="Sistema di prenotazione dei PC del laboratorio scolastico">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a href="#home" class="brand">
+        <span class="brand__logo">PC</span>
+        <span class="brand__text">
+          <strong>Prenotazione Laboratorio</strong>
+          <small>Gestione PC scolastici</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Apri menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#bacheca">Bacheca</a>
+        <a href="#regole">Regole</a>
+        <a href="#contatti">Info</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow"></p>
+          <h1>Prenotazione PC</h1>
+          <p class="hero__text">
+            Questa piattaforma permette ai docenti di consultare la disponibilità
+            dei PC del laboratorio, effettuare una prenotazione e richiedere
+            eventuali modifiche o cancellazioni in modo rapido e trasparente.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#bacheca" class="btn btn--primary">Visualizza bacheca</a>
+            <a href="#servizi" class="btn btn--secondary">Vai ai servizi</a>
+          </div>
+
+          <ul class="hero__highlights">
+            <li>Controllo rapido disponibilità</li>
+            <li>Prenotazione tramite modulo dedicato</li>
+            <li>Cancellazione tramite modulo dedicato</li>
+          </ul>
+        </div>
+
+        <aside class="hero__panel">
+          <div class="status-card">
+            <h2>Accesso rapido</h2>
+            <p>
+              Utilizzare i pulsanti qui sotto per aprire direttamente i moduli Google
+              e la bacheca pubblica delle disponibilità.
+            </p>
+
+            <div class="quick-links">
+              <a id="bachecaTopLink" class="quick-link quick-link--light" href="#" target="_blank" rel="noopener noreferrer">
+                Apri Bacheca
+              </a>
+              <a id="prenotaTopLink" class="quick-link quick-link--primary" href="#" target="_blank" rel="noopener noreferrer">
+                Prenota PC
+              </a>
+              <a id="modificaTopLink" class="quick-link quick-link--dark" href="#" target="_blank" rel="noopener noreferrer">
+                Cancella Prenotazione
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="servizi">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SERVIZI</p>
+          <h2>Strumenti disponibili</h2>
+          <p>
+            Tutte le operazioni vengono svolte tramite moduli dedicati, così da
+            mantenere lo storico delle richieste ed evitare sovrapposizioni.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="service-card">
+            <div class="service-card__icon">📅</div>
+            <h3>Prenotazione PC</h3>
+            <p>
+              Compila il modulo di prenotazione indicando la data, la fascia oraria
+              e il numero reale di PC necessari per la classe.
+            </p>
+            <a id="prenotazione-link" class="card-link" href="#" target="_blank" rel="noopener noreferrer">
+              Apri modulo prenotazione
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">🛠️</div>
+            <h3>Cancellazione</h3>
+            <p>
+              Usa il modulo dedicato per richiedere una modifica o la cancellazione
+              di una prenotazione già registrata.
+            </p>
+            <a id="modifica-link" class="card-link" href="#" target="_blank" rel="noopener noreferrer">
+              Apri modulo cancellazione
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">📊</div>
+            <h3>Bacheca disponibilità</h3>
+            <p>
+              Consulta la bacheca aggiornata per verificare la disponibilità dei PC
+              dalla data odierna in poi.
+            </p>
+            <a id="bacheca-link" class="card-link" href="#" target="_blank" rel="noopener noreferrer">
+              Apri bacheca
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="bacheca">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">BACHECA</p>
+          <h2>Disponibilità aggiornata</h2>
+          <p>
+            In questa sezione è possibile incorporare la bacheca pubblica del foglio Google.
+            I docenti visualizzeranno soltanto le date attuali e future.
+          </p>
+        </div>
+
+        <div class="board-layout">
+          <div class="board-info">
+            <div class="info-box">
+              <h3>Indicazioni rapide</h3>
+              <ul>
+                <li>Controllare sempre la disponibilità prima di prenotare.</li>
+                <li>Le prenotazioni passate non vengono mostrate nella bacheca pubblica.</li>
+                <li>In caso di errore usare il modulo di modifica.</li>
+              </ul>
+            </div>
+
+            <div class="info-box">
+              <h3>Accesso diretto</h3>
+              <p>
+                È possibile aprire la bacheca in una nuova scheda usando il pulsante seguente.
+              </p>
+              <a id="bachecaButtonLink" class="btn btn--primary btn--full" href="#" target="_blank" rel="noopener noreferrer">
+                Apri la Bacheca completa
+              </a>
+            </div>
+          </div>
+
+          <div class="board-frame">
+            <div class="frame-header">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <p>Bacheca disponibilità PC</p>
+            </div>
+
+            <div class="iframe-toolbar">
+              <button id="refreshBachecaButton" class="btn btn--secondary" type="button">
+                Aggiorna bacheca
+              </button>
+              <p id="bachecaStatus" class="board-status" aria-live="polite">
+                Caricamento bacheca...
+              </p>
+            </div>
+
+            <div class="iframe-wrapper">
+              <iframe
+                id="bachecaFrame"
+                title="Bacheca disponibilità PC"
+                loading="eager"
+                referrerpolicy="no-referrer-when-downgrade"
+                style="width: 100%; height: 100%; border: 0;">
+              </iframe>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="regole">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">REGOLAMENTO</p>
+          <h2>Indicazioni per l'utilizzo</h2>
+        </div>
+
+        <div class="rules-grid">
+          <article class="rule-card">
+            <span class="rule-number">01</span>
+            <h3>Controllo disponibilità</h3>
+            <p>Prima di compilare il modulo è necessario verificare la disponibilità nella bacheca.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="rule-number">02</span>
+            <h3>Numero reale di PC</h3>
+            <p>Indicare sempre il numero effettivo di PC necessari per evitare sprechi o sovrapposizioni.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="rule-number">03</span>
+            <h3>Ordine di invio</h3>
+            <p>In caso di richieste contemporanee, vale l'ordine di invio registrato dal modulo.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="rule-number">04</span>
+            <h3>Modifiche tracciate</h3>
+            <p>Per ogni variazione o annullamento usare esclusivamente il modulo di modifica dedicato.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="contatti">
+      <div class="container cta-box">
+        <div>
+          <p class="eyebrow eyebrow--light">ACCESSO RAPIDO</p>
+          <h2>Apri subito i servizi principali</h2>
+          <p>
+            Usa questi collegamenti per entrare direttamente nella bacheca o nei moduli.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a id="footerPrenotaLink" class="btn btn--light" href="#" target="_blank" rel="noopener noreferrer">
+            Prenota PC
+          </a>
+          <a id="footerModificaLink" class="btn btn--outline-light" href="#" target="_blank" rel="noopener noreferrer">
+            Modifica prenotazione
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Progetto scolastico - Sistema di prenotazione PC laboratorio</p>
+      <p>Realizzato per organizzare in modo chiaro l'utilizzo delle postazioni.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
