@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prenotazione PC Laboratorio</title>
   <meta name="description" content="Sistema di prenotazione dei PC del laboratorio scolastico">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header class="topbar">
@@ -27,7 +27,6 @@
       <nav class="nav" id="mainNav">
         <a href="#home">Home</a>
         <a href="#servizi">Servizi</a>
-        <a href="#bacheca">Bacheca</a>
         <a href="#regole">Regole</a>
         <a href="#contatti">Info</a>
       </nav>
@@ -133,71 +132,7 @@
       </div>
     </section>
 
-    <section class="section section--soft" id="bacheca">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">BACHECA</p>
-          <h2>Disponibilità aggiornata</h2>
-          <p>
-            In questa sezione è possibile incorporare la bacheca pubblica del foglio Google.
-            I docenti visualizzeranno soltanto le date attuali e future.
-          </p>
-        </div>
-
-        <div class="board-layout">
-          <div class="board-info">
-            <div class="info-box">
-              <h3>Indicazioni rapide</h3>
-              <ul>
-                <li>Controllare sempre la disponibilità prima di prenotare.</li>
-                <li>Le prenotazioni passate non vengono mostrate nella bacheca pubblica.</li>
-                <li>In caso di errore usare il modulo di modifica.</li>
-              </ul>
-            </div>
-
-            <div class="info-box">
-              <h3>Accesso diretto</h3>
-              <p>
-                È possibile aprire la bacheca in una nuova scheda usando il pulsante seguente.
-              </p>
-              <a id="bachecaButtonLink" class="btn btn--primary btn--full" href="#" target="_blank" rel="noopener noreferrer">
-                Apri la Bacheca completa
-              </a>
-            </div>
-          </div>
-
-          <div class="board-frame">
-            <div class="frame-header">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <p>Bacheca disponibilità PC</p>
-            </div>
-
-            <div class="iframe-toolbar">
-              <button id="refreshBachecaButton" class="btn btn--secondary" type="button">
-                Aggiorna bacheca
-              </button>
-              <p id="bachecaStatus" class="board-status" aria-live="polite">
-                Caricamento bacheca...
-              </p>
-            </div>
-
-            <div class="iframe-wrapper">
-              <iframe
-                id="bachecaFrame"
-                title="Bacheca disponibilità PC"
-                loading="eager"
-                referrerpolicy="no-referrer-when-downgrade"
-                style="width: 100%; height: 100%; border: 0;">
-              </iframe>
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <section class="section" id="regole">
       <div class="container">
@@ -263,6 +198,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 </html>
