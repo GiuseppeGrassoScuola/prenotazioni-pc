@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const links = {
-    bacheca: "https://docs.google.com/spreadsheets/d/1TOO7tYt3YCX2MzR7A_IVxvLl_-k8ZEYpbhJ7vGC2x6M/edit?gid=1901819266#gid=1901819266",
+    bacheca: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT9KPxL_HxaQWEhixnNTr5qOY4rcNu8AIbfgvmIEEXepLOQZqL0z4NXt3AD-N7sUZ_E0OWvKTpijdU7/pubhtml?gid=0&single=true",
     prenotazione: "https://forms.gle/9X31GkumzhMnc4DM6",
     modifica: "https://forms.gle/Ex98ugN6JEo1PPfM8",
-    bachecaEmbed: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_lW5s5WifpACbIILu1IdL33Txi342GtLRrTZpETxzVXn15idDerh7GBirDJ4CVJTOme5KHEUpXEYx/pubhtml?gid=1901819266&single=true"
+    bachecaEmbed: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT9KPxL_HxaQWEhixnNTr5qOY4rcNu8AIbfgvmIEEXepLOQZqL0z4NXt3AD-N7sUZ_E0OWvKTpijdU7/pubhtml?gid=0&single=true"
   };
 
   const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
